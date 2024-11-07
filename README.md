@@ -8,4 +8,5 @@ I decided to add two layers of convolution + pooling. After adding the second la
 ## Changing hidden layers
 Firstly, I wanted to try to change the activation function from "relu" to "sigmoid" and that changed the accuracy from 0.9849 to 0.9803, the "relu" being more affective in this problem. Secondly, I added another hidden layer with a dropout also of 0.5 and that also lowered the accuracy to 0.9735. Then, I tried to change the number of neurons in the second layer to be 200 and that also lowered the accuracy.
 
+## Conclusion
 In conclusion the best berformance that I found was with two steps of convolution and pooling and one hidden layer with an accuracy of 0.9849.
